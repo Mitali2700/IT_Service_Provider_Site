@@ -60,24 +60,49 @@ border-radius: 3px;
     left: 0;
 }
 
+/*************** home *****************/
 .home-content h1{
     font-size: 60px;
     color:#382a40;
-    padding-left: 150px;
+    text-align: center;
 }
 .home-content .p1{
     font-size: 28px;
     color:#382a40;
-    padding-left: 150px;
+    text-align: center;
     padding-top: 40px;
 }
+
+.content-1 img{
+    position: left;
+         float: right; 
+         width: 30%;
+         height: 30%;
+        bottom: 0%;
+
+}
+
 .home-content .p2{
     font-size: 28px;
     color:#382a40;
-    padding-left: 150px;
+    text-align: center;
     
 }
+
+.home-content .img{
+   text-align: center;
+}
+
+
+
+
 /********************* Responsiveness:- Section1 ************************/
+/* @media (max-width: 1285px){
+    .home-content img{
+        padding-left: 200px;
+    }
+} */
+
 @media (max-width: 952px){
     label.logo{
         font-size: 30px;
@@ -98,7 +123,28 @@ border-radius: 3px;
         font-size: 16px;
         
     }
+
+    .home-content h1{
+        font-size: 60px;
+        color:#382a40;
+        padding-left: 20px;
+    }
+    .home-content .p1{
+        font-size: 28px;
+        color:#382a40;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .home-content .p2{
+        font-size: 28px;
+        color:#382a40;
+        padding-left: 30px;
+
  }
+
+ 
+
+}
 
 
  @media (max-width: 858px){
@@ -151,6 +197,39 @@ border-radius: 3px;
         font-size: 30px;
     }
 
+    .home-content h1{
+        font-size: 60px;
+        color:#382a40;
+        padding-left: 20px;
+    }
+    .home-content .p1{
+        font-size: 28px;
+        color:#382a40;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .home-content .p2{
+        font-size: 28px;
+        color:#382a40;
+        padding-left: 30px;
+        
+    }
+    .home-content .img{
+        padding-left: -100px;
+    margin-top: 5x;
+    /* transform: translate(6%); */
+        
+    }
+    
+    
+    
+
  } 
 
- 
+
+ /* .home-content .img{
+    padding-left: 800px ;
+    margin-top: 5x;
+    transform: translate(6%);
+
+} */
