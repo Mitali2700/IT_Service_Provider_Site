@@ -1,0 +1,23 @@
+*{
+    background: rgb(209, 248, 255);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color:#733f92;
+}
+#im1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 33px;
+    color: #4a4a4a;
+}
+a{
+    margin-top: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(239, 29, 130);
+    font-size: 30px;
+}
