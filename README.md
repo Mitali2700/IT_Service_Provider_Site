@@ -1,5 +1,7 @@
 <h1 align="center">IT Service Provider Site</h1>
 
+<h2>Tools and Technologies</h2>
+html, css , bootstrap
 <h3>Screenshot- 1 (Desktop Screen) </h3>
 
 
